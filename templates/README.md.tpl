@@ -2,7 +2,7 @@
 
 # aka aaronedev github profile
 
-
+<!-- badges -->
 ![Profile views](https://komarev.com/ghpvc/?username=ahrwn&label=Profile%20views&color=7745bf&)
 ![GitHub followers](https://img.shields.io/github/followers/aaronedev?style=flat&logo=github&label=Followers&color=7c60d1)
 ![GitHub stars](https://img.shields.io/github/stars/aaronedev?style=flat&logo=github&label=Stars&color=fd7cff)
@@ -153,42 +153,31 @@ to automate the profile as I did.
 <details>
   <summary>Click to expand recent GitHub activity</summary>
 
-
-
+{{ $prs := recentPullRequests 5 }}
+{{ if $prs }}
 ### 🔁 Fresh Pull Requests
+{{ range $prs }}
+- {{ if eq .State "OPEN" }}🟣{{ else if eq .State "MERGED" }}🟢{{ else }}⚫{{ end }} [{{ .Title }}]({{ .URL }}) in [`{{ .Repo.Name }}`]({{ .Repo.URL }}) • {{ humanize .CreatedAt }}
+  {{- if .Repo.Description }}\
+  <sub>{{ .Repo.Description }}</sub>
+  {{- end }}
+{{ end }}
+{{ else }}
+_No pull request activity just yet — busy crafting something new._
+{{ end }}
 
-- 🟢 [feat: as requested in #48: sort icons according to window position](https://github.com/hyprland-community/hyprland-autoname-workspaces/pull/130) in [`hyprland-community/hyprland-autoname-workspaces`](https://github.com/hyprland-community/hyprland-autoname-workspaces) • 1 month ago\
-  <sub>Hyprland autoname workspaces 🪟 [maintainers=@cyrinux,@maximbaz, @shivros] </sub>
-
-- 🟢 [Restrict Type/Class scope to user-defined symbols](https://github.com/aaronedev/violet-void-theme_subl/pull/2) in [`aaronedev/violet-void-theme_subl`](https://github.com/aaronedev/violet-void-theme_subl) • 2 months ago
-
-- 🟢 [Rename theme to Violet Void](https://github.com/aaronedev/violet-void-theme_subl/pull/1) in [`aaronedev/violet-void-theme_subl`](https://github.com/aaronedev/violet-void-theme_subl) • 2 months ago
-
-- 🟢 [Fix script directory resolution for symlinked runs](https://github.com/aaronedev/nerdfont-icon-rofi-picker/pull/2) in [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 2 months ago\
-  <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
-
-- 🟢 [Preserve locale variables when launching rofi](https://github.com/aaronedev/nerdfont-icon-rofi-picker/pull/1) in [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 2 months ago\
-  <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
-
-
-
-
-
+{{ $contribs := recentContributions 5 }}
+{{ if $contribs }}
 ### 🛠️ Latest Contributions
-
-- 🔗 [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 1 day ago\
-  <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
-
-- 🔗 [`hyprland-community/hyprland-autoname-workspaces`](https://github.com/hyprland-community/hyprland-autoname-workspaces) • 4 days ago\
-  <sub>Hyprland autoname workspaces 🪟 [maintainers=@cyrinux,@maximbaz, @shivros] </sub>
-
-- 🔗 [`aaronedev/violet-void-theme_crackboard`](https://github.com/aaronedev/violet-void-theme_crackboard) • 5 days ago
-
-- 🔗 [`aaronedev/violet-void-theme_obsidian`](https://github.com/aaronedev/violet-void-theme_obsidian) • 1 week ago
-
-- 🔗 [`aaronedev/stylelint-template`](https://github.com/aaronedev/stylelint-template) • 2 weeks ago
-
-
+{{ range $contribs }}
+- 🔗 [`{{ .Repo.Name }}`]({{ .Repo.URL }}) • {{ humanize .OccurredAt }}
+  {{- if .Repo.Description }}\
+  <sub>{{ .Repo.Description }}</sub>
+  {{- end }}
+{{ end }}
+{{ else }}
+_No public commits in the last few days — check back soon._
+{{ end }}
 
 </details>
 
@@ -197,84 +186,6 @@ to automate the profile as I did.
   <summary>Click to expand the latest metrics</summary>
 
 <!--START_SECTION:waka-->
-**🐱 My GitHub Data** 
-
-> 📦 4.7 MB Used in GitHub's Storage 
- > 
-> 🏆 9,541 Contributions in the Year 2025
- > 
-> 💼 Opted to Hire
- > 
-> 📜 37 Public Repositories 
- > 
-> 🔑 113 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                206 commits         ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   24.79 % 
-🌆 Daytime                323 commits         ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   38.87 % 
-🌃 Evening                138 commits         ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.61 % 
-🌙 Night                  164 commits         ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.74 % 
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   284 commits         ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   34.18 % 
-Tuesday                  73 commits          ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.78 % 
-Wednesday                149 commits         ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.93 % 
-Thursday                 55 commits          ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.62 % 
-Friday                   123 commits         ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.80 % 
-Saturday                 40 commits          ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.81 % 
-Sunday                   107 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.88 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Europe/Berlin
-
-💬 Programming Languages: 
-TypeScript               18 hrs 7 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.62 % 
-Markdown                 7 hrs 22 mins       ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.74 % 
-TOML                     3 hrs 10 mins       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.63 % 
-Vim Script               1 hr 53 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.55 % 
-Bash                     1 hr 35 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.84 % 
-
-🔥 Editors: 
-Neovim                   39 hrs 8 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜   94.21 % 
-Vim                      2 hrs 24 mins       ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.79 % 
-
-🐱‍💻 Projects: 
-bauerstischfinder_dev    22 hrs 15 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   53.60 % 
-dotfiles                 9 hrs 53 mins       ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   23.83 % 
-Unknown Project          3 hrs 29 mins       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.41 % 
-bauer                    1 hr 55 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.64 % 
-ags                      41 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.65 % 
-
-💻 Operating System: 
-Linux                    41 hrs 32 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
-```
-
-**I Mostly Code in Shell** 
-
-```text
-Shell                    22 repos            ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   23.40 % 
-CSS                      13 repos            ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.83 % 
-JavaScript               5 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.32 % 
-Dockerfile               5 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.32 % 
-Stylus                   3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.19 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/aaronedev/aaronedev/main/assets/bar_graph.png)
-
-
- Last Updated on 17/12/2025 00:05:34 UTC
 <!--END_SECTION:waka-->
 
 </details>
