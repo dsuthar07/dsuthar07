@@ -1,14 +1,14 @@
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=300&section=header&text=Oi,%20World!%20I'm%20Aaron&fontSize=70&fontColor=f0f0f5&animation=fadeIn&fontAlignY=38&desc=Linux%20enthusiast%20•%20Hyprland%20workflows%20•%20Neovim%20configs&descSize=20&descAlignY=55)](https://github.com/aaronedev)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=300&section=header&text=Hello,%20World!%20I'm%20Divyang&fontSize=70&fontColor=f0f0f5&animation=fadeIn&fontAlignY=38&desc=Linux%20enthusiast%20•%20Windows%20enthusiast%20•%20Cloud%20and%20DevOps&descSize=20&descAlignY=55)](https://github.com/dsuthar07)
 
-# aka aaronedev github profile
+# aka divyang github profile
 
 
-![Profile views](https://komarev.com/ghpvc/?username=ahrwn&label=Profile%20views&color=7745bf&)
-![GitHub followers](https://img.shields.io/github/followers/aaronedev?style=flat&logo=github&label=Followers&color=7c60d1)
-![GitHub stars](https://img.shields.io/github/stars/aaronedev?style=flat&logo=github&label=Stars&color=fd7cff)
+![Profile views](https://komarev.com/ghpvc/?username=dsuthar07&label=Profile%20views&color=7745bf&)
+![GitHub followers](https://img.shields.io/github/followers/dsuthar07?style=flat&logo=github&label=Followers&color=7c60d1)
+![GitHub stars](https://img.shields.io/github/stars/dsuthar07?style=flat&logo=github&label=Stars&color=fd7cff)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=7C60D1&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Linux+desktop+engineering;rootless+containers;Hyprland+workflows;Neovim+configs+%26+Themes" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=7C60D1&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Linux+desktop+engineering;rootless+containers;Windows+Servers;Cloud+platforms+%26+DevOps" alt="Typing SVG" />
 </p>
 
 ## 📬 About me -- Contact
@@ -20,31 +20,31 @@
     style="filter: hue-rotate(90deg);" />
 </a>
 
-[![Waka Readme](https://github.com/aaronedev/aaronedev/actions/workflows/readme.yaml/badge.svg)](https://github.com/aaronedev/aaronedev/actions/workflows/readme.yaml)
-[![Matrix](https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=ffffff)](https://matrix.to/#/@aaronedev:matrix.org)
+[![Waka Readme](https://github.com/dsuthar07/dsuthar07/actions/workflows/readme.yaml/badge.svg)](https://github.com/dsuthar07/dsuthar07/actions/workflows/readme.yaml)
+[![Matrix](https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=ffffff)](https://matrix.to/#/@dsuthar07:matrix.org)
 
-- Matrix: <a href="https://matrix.to/#/@aaronedev:matrix.org" target="_blank">@aaronedev:matrix.org</a>
+- Matrix: <a href="https://matrix.to/#/@dsuthar07:matrix.org" target="_blank">@dsuthar07:matrix.org</a>
 - Brieftaube: <a href="https://de.wikipedia.org/wiki/Brieftaube" target="_blank">Homing Pigeon</a> send it to cologne 50.951811223028265, 6.986298711065432
 
 > [!IMPORTANT]
 > Don't take urself too seriously, we're all pretty dumbs here.
 
 <div class="badges-githubstats">
-  <img src="https://github-readme-stats.vercel.app/api?username=aaronedev&show_icons=true&hide_border=true&count_private=true&bg_color=111%2C082421%2C0D1117&title_color=7c60d1&text_color=f0f0f5&icon_color=319e8d&border_color=131313&border_radius=10" alt="aaronedev's github statistics" height="140" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaronedev&hide_border=true&background=082421&border=131313&stroke=c7b8ff&ring=fd7cff&fire=fd0098&currStreakNum=c7b8ff&currStreakLabel=7c60d1&sideNums=c7b8ff&sideLabels=7c60d1&dates=f0f0f5&border_radius=10" alt="aaronedev's github commit streak" height="140" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dsuthar07&show_icons=true&hide_border=true&count_private=true&bg_color=111%2C082421%2C0D1117&title_color=7c60d1&text_color=f0f0f5&icon_color=319e8d&border_color=131313&border_radius=10" alt="dsuthar07's github statistics" height="140" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dsuthar07&hide_border=true&background=082421&border=131313&stroke=c7b8ff&ring=fd7cff&fire=fd0098&currStreakNum=c7b8ff&currStreakLabel=7c60d1&sideNums=c7b8ff&sideLabels=7c60d1&dates=f0f0f5&border_radius=10" alt="dsuthar07's github commit streak" height="140" />
 </div>
 
 ## 🔧 What I do now
 - Build secure, rootless **Podman** dev setups ![Podman](https://img.shields.io/badge/Podman-7c60d1?style=flat&logo=podman&logoColor=ffffff)
 - Engineer **Hyprland** desktop workflows and **Neovim** theming ![Hyprland](https://img.shields.io/badge/Hyprland-fd0098?style=flat&logo=hyprland&logoColor=ffffff) ![Neovim](https://img.shields.io/badge/Neovim-42ff97?style=flat&logo=neovim&logoColor=0b0b0b)
 - Ship **python-utility** apps: offline TTS tools powered by **Piper** ![Python](https://img.shields.io/badge/Python-319e8d?style=flat&logo=python&logoColor=ffffff)
-  - Example: clipboard-reader aka [read-that](https://github.com/aaronedev/read-that) 📢
+  - Example: clipboard-reader aka [read-that](https://github.com/dsuthar07/read-that) 📢
  that auto-detects **EN/DE**, switches voices, and takes flags for speed, pitch, and voice
 - Bash scripting: small, composable CLI tools ![Bash](https://img.shields.io/badge/Bash-fd0098?style=flat&logo=gnu-bash&logoColor=ffffff)
 - Linux (Arch-based) and network fundamentals for real deployments ![Linux](https://img.shields.io/badge/Linux-00fff9?style=flat&logo=linux&logoColor=0b0b0b) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-29adff?style=flat&logo=arch-linux&logoColor=ffffff)
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaronedev&layout=compact&bg_color=111%2C082421%2C0D1117&title_color=7c60d1&text_color=f0f0f5&hide_border=true&border_radius=10&border_color=131313" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dsuthar07&layout=compact&bg_color=111%2C082421%2C0D1117&title_color=7c60d1&text_color=f0f0f5&hide_border=true&border_radius=10&border_color=131313" alt="Top Languages" />
 </div>
 
 ## ✨ I can help with
@@ -56,13 +56,13 @@
 
 ## 🌟 Featured projects
 - 🎨 **Violet Void Theme** — core color system powering matching themes across apps (ArchWiki, CopyQ, more)\
-  [`aaronedev/violet-void-theme`](https://github.com/aaronedev/violet-void-theme)
+  [`dsuthar07/violet-void-theme`](https://github.com/dsuthar07/violet-void-theme)
   - ArchWiki: restyles the ArchWiki with a violet void palette\
-    [`aaronedev/violet-void-theme_archwiki`](https://github.com/aaronedev/violet-void-theme_archwiki)
+    [`dsuthar07/violet-void-theme_archwiki`](https://github.com/dsuthar07/violet-void-theme_archwiki)
   - CopyQ: matching CopyQ theme for a cohesive desktop\
-    [`aaronedev/violet-void-theme_copyq`](https://github.com/aaronedev/violet-void-theme_copyq)
+    [`dsuthar07/violet-void-theme_copyq`](https://github.com/dsuthar07/violet-void-theme_copyq)
   - Sublime tmTheme Syntax mappings which can be used for [Bat](https://github.com/sharkdp/bat) and such\
-    [`aaronedev/violet-void-theme_subl`](https://github.com/aaronedev/violet-void-theme_subl)
+    [`dsuthar07/violet-void-theme_subl`](https://github.com/dsuthar07/violet-void-theme_subl)
 
 <details>
   <summary>Color palette preview</summary>
@@ -130,9 +130,9 @@
 </details>
 
 - 🧩 **zen-mods** — modular ergonomics toolkit for Hyprland workspaces\
-  [`aaronedev/zen-mods`](https://github.com/aaronedev/zen-mods)
+  [`dsuthar07/zen-mods`](https://github.com/dsuthar07/zen-mods)
   - zen-floating-bookmarks: lightweight floating bookmark UX\
-    [`aaronedev/zen-floating-bookmarks`](https://github.com/aaronedev/zen-floating-bookmarks)
+    [`dsuthar07/zen-floating-bookmarks`](https://github.com/dsuthar07/zen-floating-bookmarks)
   - zen-spotlight *(in progress)* — rapid launcher overlays for Hyprland
 
 ## 📝 Docs workflow
@@ -141,7 +141,7 @@ All notes in Neovim via [obsidian.nvim](https://github.com/obsidian-nvim/obsidia
 
 ## 🪄 If you want to Fork this profile to use it as ur own
 
-[![templates/README.md.tpl](https://img.shields.io/badge/templates-README.md.tpl-2ea44f?logo=github&labelColor=161b22)](https://github.com/aaronedev/aaronedev/discussions/7)
+[![templates/README.md.tpl](https://img.shields.io/badge/templates-README.md.tpl-2ea44f?logo=github&labelColor=161b22)](https://github.com/dsuthar07/dsuthar07/discussions/7)
 
 Check discussion page or click badge above to see install instructions if u want
 to automate the profile as I did.
@@ -160,14 +160,14 @@ to automate the profile as I did.
 - 🟢 [feat: as requested in #48: sort icons according to window position](https://github.com/hyprland-community/hyprland-autoname-workspaces/pull/130) in [`hyprland-community/hyprland-autoname-workspaces`](https://github.com/hyprland-community/hyprland-autoname-workspaces) • 1 month ago\
   <sub>Hyprland autoname workspaces 🪟 [maintainers=@cyrinux,@maximbaz, @shivros] </sub>
 
-- 🟢 [Restrict Type/Class scope to user-defined symbols](https://github.com/aaronedev/violet-void-theme_subl/pull/2) in [`aaronedev/violet-void-theme_subl`](https://github.com/aaronedev/violet-void-theme_subl) • 2 months ago
+- 🟢 [Restrict Type/Class scope to user-defined symbols](https://github.com/dsuthar07/violet-void-theme_subl/pull/2) in [`dsuthar07/violet-void-theme_subl`](https://github.com/dsuthar07/violet-void-theme_subl) • 2 months ago
 
-- 🟢 [Rename theme to Violet Void](https://github.com/aaronedev/violet-void-theme_subl/pull/1) in [`aaronedev/violet-void-theme_subl`](https://github.com/aaronedev/violet-void-theme_subl) • 2 months ago
+- 🟢 [Rename theme to Violet Void](https://github.com/dsuthar07/violet-void-theme_subl/pull/1) in [`dsuthar07/violet-void-theme_subl`](https://github.com/dsuthar07/violet-void-theme_subl) • 2 months ago
 
-- 🟢 [Fix script directory resolution for symlinked runs](https://github.com/aaronedev/nerdfont-icon-rofi-picker/pull/2) in [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 2 months ago\
+- 🟢 [Fix script directory resolution for symlinked runs](https://github.com/dsuthar07/nerdfont-icon-rofi-picker/pull/2) in [`dsuthar07/nerdfont-icon-rofi-picker`](https://github.com/dsuthar07/nerdfont-icon-rofi-picker) • 2 months ago\
   <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
 
-- 🟢 [Preserve locale variables when launching rofi](https://github.com/aaronedev/nerdfont-icon-rofi-picker/pull/1) in [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 2 months ago\
+- 🟢 [Preserve locale variables when launching rofi](https://github.com/dsuthar07/nerdfont-icon-rofi-picker/pull/1) in [`dsuthar07/nerdfont-icon-rofi-picker`](https://github.com/dsuthar07/nerdfont-icon-rofi-picker) • 2 months ago\
   <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
 
 
@@ -176,17 +176,17 @@ to automate the profile as I did.
 
 ### 🛠️ Latest Contributions
 
-- 🔗 [`aaronedev/nerdfont-icon-rofi-picker`](https://github.com/aaronedev/nerdfont-icon-rofi-picker) • 1 day ago\
+- 🔗 [`dsuthar07/nerdfont-icon-rofi-picker`](https://github.com/dsuthar07/nerdfont-icon-rofi-picker) • 1 day ago\
   <sub>A simple rofi-based picker for nerd font icons. Browse through thousands of icons with fuzzy search and copy them to your clipboard.</sub>
 
 - 🔗 [`hyprland-community/hyprland-autoname-workspaces`](https://github.com/hyprland-community/hyprland-autoname-workspaces) • 4 days ago\
   <sub>Hyprland autoname workspaces 🪟 [maintainers=@cyrinux,@maximbaz, @shivros] </sub>
 
-- 🔗 [`aaronedev/violet-void-theme_crackboard`](https://github.com/aaronedev/violet-void-theme_crackboard) • 5 days ago
+- 🔗 [`dsuthar07/violet-void-theme_crackboard`](https://github.com/dsuthar07/violet-void-theme_crackboard) • 5 days ago
 
-- 🔗 [`aaronedev/violet-void-theme_obsidian`](https://github.com/aaronedev/violet-void-theme_obsidian) • 1 week ago
+- 🔗 [`dsuthar07/violet-void-theme_obsidian`](https://github.com/dsuthar07/violet-void-theme_obsidian) • 1 week ago
 
-- 🔗 [`aaronedev/stylelint-template`](https://github.com/aaronedev/stylelint-template) • 2 weeks ago
+- 🔗 [`dsuthar07/stylelint-template`](https://github.com/dsuthar07/stylelint-template) • 2 weeks ago
 
 
 
@@ -271,7 +271,7 @@ Stylus                   3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 **Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/aaronedev/aaronedev/main/assets/bar_graph.png)
+![Lines of Code chart](https://raw.githubusercontent.com/dsuthar07/dsuthar07/main/assets/bar_graph.png)
 
 
  Last Updated on 17/12/2025 00:05:34 UTC
