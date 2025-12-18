@@ -11,13 +11,13 @@
     <img id="preview" src="https://komarev.com/ghpvc/?username=dsuthar07&color=grey">
 </p>
 <p align="center">
-    <a href="https://leetcode.com/drknzz/"><img width="48%" src="https://leetcode.card.workers.dev/drknzz?theme=dark&font=baloo&extension=null&border=2&border_radius=8"></a>
-    <a href="https://github.com/drknzz"><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=drknzz&theme=dark&hide=html,css,cmake&layout=compact&langs_count=5&bg_color=101010&hide_title=true"></a>
+    <a href="https://leetcode.com/dsuthar07/"><img width="48%" src="https://leetcode.card.workers.dev/dsuthar07?theme=dark&font=baloo&extension=null&border=2&border_radius=8"></a>
+    <a href="https://github.com/dsuthar07"><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=drknzz&theme=dark&hide=html,css,cmake&layout=compact&langs_count=5&bg_color=101010&hide_title=true"></a>
 </p>
 
 [![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=300&section=header&text=Hello,%20World!%20I'm%20Divyang&fontSize=70&fontColor=f0f0f5&animation=fadeIn&fontAlignY=38&desc=Linux%20enthusiast%20•%20Windows%20enthusiast%20•%20Cloud%20and%20DevOps&descSize=20&descAlignY=55)](https://github.com/dsuthar07)
 
-# aka divyang github profile
+# Divyang's github profile
 
 
 ![Profile views](https://komarev.com/ghpvc/?username=dsuthar07&label=Profile%20views&color=7745bf&)
